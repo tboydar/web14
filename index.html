@@ -24,6 +24,14 @@
     .testData::after {
         content: "___"
     }
+
+    .card {
+        border: none;
+    }
+
+    .card img {
+        width: 50%;
+    }
 </style>
 
 <body>
@@ -244,27 +252,44 @@
         </div>
         5 price
     </section>
-    <section>6<div class="container-fluid">
+    <section id="team">
+        <div class="container">
             <div class="row">
-
+                <div class="col-md-12 text-center">
+                    <h3>營運團隊</h3>
+                </div>
+            </div>
+            <div class="row mt-5">
                 <div class="col-12 col-sm-4 text-center">
-                    <img src="./images/CEO.jpg" class="rounded-circle">
-                    <h5>Name</h5>
-                    <p>COO</p>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/CEO.jpg" class="card-img-top rounded-circle mx-auto d-block">
+                        <div class="card-body">
+                            <h5 class="card-title">王唯虎</h5>
+                            <p>CEO</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-4 text-center">
-                    <img src="./images/CIO.png" class="rounded-circle">
-                    <br>test<h5>Name</h5>
-                    <p>COO</p>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/CIO.png" class="card-img-top rounded-circle mx-auto d-block">
+                        <div class="card-body">
+                            <h5 class="card-title">吳佳鼠</h5>
+                            <p>CTO</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-4 text-center">
-
-                    <img src="./images/CTO.jpg" class="rounded-circle">
-                    <h5>Name</h5>
-                    <p>COO</p>
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/CTO.jpg" class="card-img-top rounded-circle mx-auto d-block">
+                        <div class="card-body">
+                            <h5 class="card-title">迪斯狗</h5>
+                            <p>CIO</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        6 team
     </section>
     <section>7</section>
     <section>8</section>
